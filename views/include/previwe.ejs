@@ -1,0 +1,111 @@
+<div class="modal" id="previwestaticBackdrop">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <form action="#" id="newInvoive">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="previwestaticBackdrop">Previwe</h1>
+                                    <button type="button" class="btn-close" onclick="previewInvoiceOff()"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="previwe" id="printBody">
+                                        <div class="previweHead">
+                                            <h1>ALMEZHERCOLDSTORES</h1>
+                                            <h5>CR No: 20929-4 Mob: 33440661, Umm Alhassam, Kingdom Of Bahrain
+                                                E-mail: sameermazhar2011@gmail.com</h5>
+                                        </div>
+                                        <div class="previweBody">
+                                            <div class="invoiceHead">
+                                                <h2>Invoice</h2>
+                                                <div class="preSubHead">
+                                                    <h5>Date :
+                                                        <div class="preSubBody">
+                                                            <p id="invoiceDate"></p>
+                                                        </div>
+                                                    </h5>
+                                                    <h5>Bill.No :
+                                                        <div class="preSubBody">
+                                                            <p id="invoiceBill.NO"></p>
+                                                        </div>
+                                                    </h5>
+                                                    <h5>P.O.No :
+                                                        <div class="preSubBody">
+                                                            <p id="invoicePO.NO"></p>
+                                                        </div>
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div class="invoiceBody">
+                                                <div class="inviceBodyleft">
+                                                    <h5>Attn : <span id="invoiceCustomerName"></span></h5>
+                                                </div>
+                                                <div class="invoiceBodyright">
+                                                    <h5>To<span id="invoiceAddress"></span></h5>
+                                                </div>
+                                            </div>
+                                            <div class="invoiceTable">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th scope="col">SL.NO.</th>
+                                                            <th scope="col">DESCRIPTION</th>
+                                                            <th scope="col">UNIT</th>
+                                                            <th scope="col">QTY</th>
+                                                            <th scope="col">UNIT PRICE</th>
+                                                            <th scope="col">BD</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody id="previweTbody">
+                                                        <!-- <tr>
+                                                            <th scope="row">1</th>
+                                                            <td>HP x1000 Wired Optical Mouse</td>
+                                                            <td>PCE</td>
+                                                            <td>4</td>
+                                                            <td>22.0</td>
+                                                            <td class="bd">88.00</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">2</th>
+                                                            <td>HP x1000 Wired Optical Mouse</td>
+                                                            <td>PCE</td>
+                                                            <td>4</td>
+                                                            <td>22.0</td>
+                                                            <td class="bd">88.00</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">3</th>
+                                                            <td>HP x1000 Wired Optical Mouse</td>
+                                                            <td>PCE</td>
+                                                            <td>4</td>
+                                                            <td>22.0</td>
+                                                            <td class="bd">88.00</td>
+                                                        </tr> -->
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="invoiceTotal">
+                                                <div class="amountWord">
+                                                    <h4></h4>
+                                                    <h4 class="word" id="AmountWord"></h4>
+                                                </div>
+                                                <div class="grandTotal">
+                                                    <h4>TOTAL:</h4>
+                                                    <h4 class="total" id="invoiceGrandTotal"></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="previwefooter">
+                                            <h5>Thanking you for the continued support and valuable business to Al
+                                                Mezher Cold Stores</h5>
+                                            <h5>sincerely yours</h5>
+                                            <h5>Sameer AlMezher Cold Stores Mobile: 33440661</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer save_btn">
+                                    <button type="button" class="btn btn-outline-primary" onclick="previewInvoiceOff()">Cancle</button>
+                                    <button class="btn btn-primary" type="submit" onclick="previewOff('printBody')">Create a PDF</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>

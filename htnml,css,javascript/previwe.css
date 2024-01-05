@@ -1,0 +1,196 @@
+.previwe {
+    padding: 20px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .previweHead {
+    border-bottom: 2px solid;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .previweHead h5 {
+    color: #11181c;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  
+  .previweHead h1 {
+    color: #5d6be1;
+    font-family: Inter;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 800;
+  }
+  
+  .invoiceHead .preSubHead {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .invoiceHead .preSubHead h5 {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+  }
+  
+  .invoiceHead .preSubHead p {
+    margin: 0;
+    color: #11181c;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  /* .previweTophead {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .previweHead h1 {
+    color: #5d6be1;
+    font-family: Inter;
+    font-size: 100px; 
+    font-style: normal;
+    font-weight: 800;
+  } 
+  
+  
+  .previweHead h5 {
+  max-width: 480px;
+    color: #11181c;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+  } */
+  
+  .invoiceHead h2 {
+    color: #11181c;
+    text-align: left;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133%;
+  }
+  
+  .previweBody h5 {
+    color: #7e868c;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .invoiceBody {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .inviceBodyleft {
+    display: flex;
+    align-items: center;
+  }
+  
+  .invoiceBody h5 span {
+    color: black;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .invoiceBody .invoiceBodyright h5 {
+    display: flex;
+    flex-direction: column;
+    gap: 5modal_mainbodypx;
+  }
+  
+  .invoiceBody .invoiceBodyright h5 span {
+    max-width: 300px;
+    font-weight: 500;
+  }
+  
+  .invoiceTable .table thead th tr {
+    background: #f2f2f2;
+  }
+  
+  .invoiceTable .table > :not(caption) > * > * {
+    background-color: unset !important;
+    color: unset !important;
+  }
+  
+  .invoiceTable .table > thead {
+    background: #f2f2f2 !important;
+    border-radius: 10px !important;
+    border: 1px solid #f1f3f5 !important;
+  }
+  
+  .invoiceTable .table > tbody {
+    background: #f7f8fb !important;
+  }
+  
+  .invoiceTable tbody tr td {
+    color: #11181c !important;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500 !important;
+  }
+  
+  .invoiceTable tbody tr .bd {
+    color: red !important;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800 !important;
+  }
+  
+  .invoiceTotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .invoiceTotal h4 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .invoiceTotal .amountWord {
+    display: flex;
+    gap: 15px;
+    padding: 5px;
+  }
+  
+  .invoiceTotal .grandTotal {
+    display: flex;
+    gap: 15px;
+    background: #f2f2f2;
+    padding: 5px;
+    align-items: center;
+    border: 2px solid;
+  }
+  
+  .invoiceTotal .amountWord .word {
+    font-weight: 700;
+  }
+  
+  .invoiceTotal .grandTotal .total {
+    color: red;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .previwefooter {
+    margin: 30px 0 0;
+  }
+  
+  .previwefooter h5 {
+    color: black;
+  }
+  

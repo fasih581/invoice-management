@@ -1,0 +1,104 @@
+<div class="modal" id="staticBackdrop" data-bs-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form action="/invoice/newInvoice" method="post" id="newInovice">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Create a Invoice</h1>
+                    <button type="button" class="btn-close" onclick="cancelForm()"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mainHeadbodyProduct">
+                        <div class="inputRowRight">
+                            <div class="dateInput">
+                                <label for="date" class="form-label">Date</label>
+                                <input type="date" class="form-control" id="date">
+                            </div>
+                            
+                            <div class="billNumberInput">
+                                <label for="billNumber" class="form-label">Bill Number</label>
+                                <input type="text" class="form-control" id="billNumber" placeholder="Bill Number">
+                            </div>
+                            <div class="PONumberInput">
+                                <label for="poNumber" class="form-label">P.O Number</label>
+                                <input type="text" class="form-control" id="poNumber" placeholder="P.O Number">
+                            </div>
+                        </div>
+                        <div class="inputRowLeft">
+                            <div class="customerInput">
+                                <label for="customerName" class="form-label" id="CustomerLabel">Customer Name</label>
+                                <select class="js-example-placeholder-multiple js-states form-control" id="customerName">
+                                    <option value="" selected></option>
+                                </select>
+                            </div>
+                            <div class="addressInput">
+                                <label for="addressField" class="form-label">Customer Address</label>
+                                <div id="addressField">
+                                    <p id="address"></p>
+                                </div> 
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="modal_mainbody">
+                        <table class="table" id="newTable">
+                            <thead>
+                                <tr>
+                                    <th scope="col">SL.NO</th>
+                                    <th scope="col">DESCRIPITION</th>
+                                    <th scope="col">UNIT</th>
+                                    <th scope="col">QTY</th>
+                                    <th scope="col">UNIT PRICE</th>
+                                    <th scope="col">B.D</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody id="tableBody">
+
+                            </tbody>
+                            <!-- 
+                            <tr>
+                                <th scope="row">#1</th>
+                                <td class="IteamTd">
+                                    <form action="">
+                                        <select class="js-example-placeholder-multiple js-states form-control select2" id="newSalutation" multiple="multiple">
+                                            <option>Mr</option>
+                                            <option>Miss</option>
+                                        </select>
+                                    </form>
+                            </td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                                <td></td>
+                            </tr> -->
+                        </table>
+                        <div class="newline">
+                            <button type="button" id="addRowButton" class="newbtn">
+                                <span class="material-symbols-outlined">add_circle</span>ADD NEW LINE
+                            </button>
+                        </div>
+
+                        <div class="tablefoot">
+                            <div class="amountWordInput">
+                                <label for="amountWord" class="form-label">Amount In Word</label>
+                                <input type="text" class="form-control" id="amountWord"
+                                    placeholder="Enter Amount In Word" disabled>
+                            </div>
+                            <div class="grandTotalinput">
+                                <label for="grandTotal" class="form-label" colspan="2">Grand Total</label>
+                                <input type="number" class="form-control" id="grandTotal" min="0.00" step="0.001" placeholder="Total Amount">
+                                <!-- <p id="grandTotal"></p> -->
+                              </div>
+                              
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer save_btn">
+                    <button type="button" class="btn btn-outline-primary" onclick="cancelForm()">Cancel</button>
+                    <button class="btn btn-primary" type="submit" id="newInoviceBtn">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

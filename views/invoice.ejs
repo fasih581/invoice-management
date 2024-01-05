@@ -1,0 +1,60 @@
+<!-- head -->
+<%- include('include/head.ejs') %>
+
+
+    <div class="box">
+        <div class="invoice">
+
+            <!-- sidebar -->
+            <%- include('include/sidebar.ejs') %>
+                <!-- sidebar end -->
+
+                <!-- mainpage -->
+                <%- include('include/mainpage.ejs') %>
+                    <!-- mainpage end -->
+
+
+
+        </div>
+    </div>
+
+    <!-- overlay div -->
+    <div class="overlay" id="over_lay"></div>
+    <!-- overlay div End -->
+
+    <!-- New invoice model -->
+    <%- include('include/newInvoice.ejs') %>
+        <!-- New invoice model end -->
+
+        <!-- previwe invoice model -->
+        <%- include('include/previwe.ejs') %>
+            <!-- previw invoice model end -->
+
+            <!-- edit modal -->
+            <%- include('include/edit.ejs')%>
+                <!-- edit modal end -->
+
+                <!--  Delete Modal -->
+                <%- include('include/delete.ejs') %>
+                    <!-- delete model end -->
+
+
+                    <!-- jquery link-->
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+                    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+                    <!--  -->
+                    <!-- Select2 link -->
+                    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+                    <!-- <script src="path/to/select2.min.js"></script> -->
+                    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+                    <!--  -->
+                    <!-- Bootstrap JS Link -->
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+                    <!--  -->
+                    <!-- JS Link -->
+                    <script src="/js/invoice.js"></script>
+                    <script src="/js/previwe.js"></script>
+                    <!--  -->
+                    </body>
+
+                    </html>

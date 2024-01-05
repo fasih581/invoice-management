@@ -1,0 +1,104 @@
+<div class="modal" id="editstaticBackdrop">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form action="#" id="editInvoice">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Edit a Invoice</h1>
+                    <button type="button" class="btn-close" onclick="editInvoiceOff()"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mainHeadbodyProduct">
+                        <div class="inputRowRight">
+                            <div class="dateInput">
+                                <label for="date" class="form-label">Date</label>
+                                <input type="date" class="form-control" id="editdate">
+                            </div>
+                            
+                            <div class="billNumberInput">
+                                <label for="billNumber" class="form-label">Bill Number</label>
+                                <input type="text" class="form-control" id="editbillNumber" placeholder="Bill Number">
+                            </div>
+                            <div class="PONumberInput">
+                                <label for="poNumber" class="form-label">P.O Number</label>
+                                <input type="text" class="form-control" id="editpoNumber" placeholder="P.O Number">
+                            </div>
+                        </div>
+                        <div class="inputRowLeft">
+                            <div class="customerInput">
+                                <label for="customerName" class="form-label" id="CustomerLabel">Customer Name</label>
+                                <select class="js-example-placeholder-multiple js-states form-control"
+                                    id="editCustomerName">
+                                    <option value="" selected id="editCustomerName"></option>
+                                </select>
+                            </div>
+                            <div class="addressInput">
+                                <label for="addressField" class="form-label">Customer Address</label>
+                                <div id="addressField">
+                                    <p id="editaddress"></p>
+                                </div> 
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="modal_mainbody">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">SL.NO</th>
+                                    <th scope="col">DESCRIPITION</th>
+                                    <th scope="col">UNIT</th>
+                                    <th scope="col">QTY</th>
+                                    <th scope="col">UNIT PRICE</th>
+                                    <th scope="col">B.D</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody id="editTbody">
+                                <!-- <tr class="items">
+                                    <th scope="row">#1</th>
+                                    <td class="IteamTd">
+                                        <select class="js-example-placeholder-multiple js-states form-control" id="editproductItem">
+                                            <option value="" selected></option>
+                                        </select>                                    
+                                    </td>
+                                    <td><select class="form-select" aria-label="Default select example">
+                                            <option selected>Open this select menu</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select></td>
+                                    <td><input type="number" class="form-control" placeholder="Enter The Qty">
+                                    </td>
+                                    <td><input type="number" class="form-control" placeholder="Enter The Unit Price">
+                                    </td>
+                                    <td><input type="number" class="form-control" placeholder="Total Amount" disabled>
+                                    </td>
+                                    <td></td>
+                                </tr> -->
+                            </tbody>
+                        </table>
+                        <!-- <div class="newline">
+                            <button type="button" id="addEditRowButton" class="newbtn">
+                                <span class="material-symbols-outlined">add_circle</span>ADD NEW LINE
+                            </button>
+                        </div> -->
+                    </div>
+                    <div class="tablefoot">
+                        <div class="amountWordInput">
+                            <label for="amountWord" class="form-label">Amount In Word</label>
+                            <input type="text" class="form-control" id="amountWord" placeholder="Enter Amount In Word">
+                        </div>
+                        <div class="grandTotalinput">
+                            <label for="grandTotal" class="form-label">Grand Total</label>
+                            <input type="text" class="form-control" id="editgrandTotal" placeholder="Total Amount">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer save_btn">
+                    <button type="button" class="btn btn-outline-primary" onclick="editInvoiceOff()">Cancel</button>
+                    <button class="btn btn-primary" type="submit">Edit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

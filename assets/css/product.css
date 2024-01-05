@@ -1,0 +1,55 @@
+.pEdit {
+  width: 1px;
+}
+
+.pdelet {
+  width: 0px;
+}
+
+
+.table.ptable > tbody {
+  vertical-align: unset !important;
+}
+
+
+.error-message {
+  color: red; 
+}
+
+.overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  display: none;
+}
+
+.modal-backdrop {
+  opacity: 0 !important;
+}
+.modal.emp-form {
+  position: fixed;
+}
+
+.pMainHead {
+  margin: 100px 100px 50px;
+}
+
+.pMainBody{
+  overflow: auto;
+  height: 662px;
+}
+
+.pSearch {
+  border-bottom: unset;
+}
+
+.inputRowRight{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  flex-direction: column;
+}

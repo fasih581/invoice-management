@@ -1,0 +1,438 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter", sans-serif;
+}
+
+.box {
+  max-width: 1850px;
+  margin: auto;
+}
+
+#staticBackdrop .modal-dialog {
+  max-width: 80%;
+}
+
+#editstaticBackdrop .modal-dialog {
+  max-width: 80%;
+}
+
+#previwestaticBackdrop .modal-dialog {
+  max-width: 80%;
+}
+
+h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.form-label {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+input::placeholder {
+  font-family: Inter;
+  color: #000;
+  font-weight: 500;
+}
+
+/*   */
+
+.invoice {
+  background: #f7f8fb;
+  display: flex;
+}
+
+.sidebar {
+  width: 355px;
+  min-height: 100vh;
+  background: rgba(230, 225, 237, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+
+.sidehead h1 {
+  color: #000;
+  text-align: center;
+  padding-top: 21px;
+}
+
+.sideNavbar_top {
+  flex: 1;
+}
+
+.sideNavbar_top ul li a {
+  text-decoration: none;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  gap: 13px;
+  padding: 10px 10px;
+  width: 163px;
+}
+
+.sideNavbar_top ul {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  list-style-type: none;
+  margin: 150px 50px 90px;
+}
+
+.sideNavbar_top ul li a:hover {
+  border-radius: 15px;
+  background-color: rgba(246, 113, 113, 0.13);
+  display: flex;
+  padding: 10px 10px;
+}
+
+.sideNavbar_bottom ul li a {
+  text-decoration: none;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  gap: 13px;
+}
+
+.sideNavbar_bottom ul {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  list-style-type: none;
+  margin: 0px 50px 50px;
+}
+
+.sidedropdown {
+  flex: 1;
+}
+
+.dropdownMenu {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.sidedrop {
+  appearance: none;
+  padding: 10px 0px 10px 15px;
+  /* width: 60%; */
+  font-size: 20px;
+  background-color: rgba(246, 113, 113, 0.13);
+  color: black;
+  border: 1px dashed;
+  font-family: Inter;
+  font-weight: 600;
+}
+
+.dropdownMenu .drop_icon {
+  width: 25px;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 70px;
+}
+
+/* mainpage */
+
+.mainpage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* mainhead */
+.mainHead {
+  margin: 100px 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainHead .btn.btn-primary {
+  background: #0f57fd;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+  border-radius: 10px;
+}
+/*  */
+/* mainheadbody */
+.mainHeadbody p {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: start;
+}
+
+#CustomerLabel {
+  text-align: start;
+}
+
+.customerInput {
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+}
+
+/* mainbody */
+.mainbody {
+  margin: 25px 100px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #fafbfd;
+  background: #fffeff;
+  box-shadow: 0px 13px 26px 0px rgba(224, 199, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.modal_mainbody .table thead tr th {
+  background: #f2f2f2;
+}
+
+.iconRow {
+  border: none;
+  background: none;
+  display: flex;
+}
+
+/* Autocomplte searchbar */
+.IteamTd{
+  width: 390px 
+}
+
+.select2-container .select2-selection--multiple {
+  min-width: 373px;
+}
+
+span.select2-selection.select2-selection--single {
+  min-width: 355px;
+}
+/* Autocomplte searchbar end */
+
+/* new line add */
+.newline .newbtn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: blue;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: none;
+  border: none;
+}
+
+.newline .newbtn span {
+  color: black;
+  font-size: 20px;
+}
+/* new line end */
+
+.tablefoot {
+  display: flex;
+  gap: 10px;
+}
+
+.amountWordInput {
+  width: 70%;
+}
+
+.grandTotalinput {
+  width: 30%;
+}
+
+#staticBackdrop .modal-footer .save_btn {
+  margin: 25px 100px;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid #fafbfd;
+  background: #fffeff;
+  box-shadow: 0px 13px 26px 0px rgba(224, 199, 255, 0.3);
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+}
+
+.modal-footer.save_btn .btn.btn-primary {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 5px 30px;
+}
+
+.modal-footer.save_btn .btn.btn-outline-primary {
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 5px 30px;
+}
+
+.modal_mainbody {
+  margin: 25px 25px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #fafbfd;
+  background: #fffeff;
+  box-shadow: 0px 13px 26px 0px rgba(224, 199, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.mainbody .tdDropdown {
+  width: 0px;
+}
+
+.mainbody .dropdown .btn.btn-secondary {
+  background: #0f57fd;
+  display: flex;
+  border-radius: 10px;
+  border: none;
+}
+
+.mainbody .dropdown-menu {
+  border-radius: 14px;
+  border: 0.5px solid #d3d8e2;
+  background: #fff;
+  box-shadow: 0px 1px 4px 0px rgba(16, 16, 49, 0.12);
+}
+
+.mainbody .dropdown-item {
+  display: flex;
+  gap: 10px;
+  color: #2b3674;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+}
+
+span#select2-newSalutation-container {
+  width: 241px;
+}
+
+select#productUnit1 {
+  width: 115px;
+}
+
+/* edit model */
+.modal_mainbody .table tbody tr td.material-symbols-outlined {
+  font-size: 30px;
+}
+/* edit model end */
+
+/* delete modal */
+#deletestaticBackdrop .modal-dialog {
+  max-width: 50%;
+}
+
+#deletestaticBackdrop .modal-body {
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#deletestaticBackdrop .modal-body p {
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+}
+/* delete model end */
+
+.search {
+  border-bottom: 1px solid;
+  border-color: #dee2e6;
+  display: flex;
+  justify-content: center;
+}
+
+.search .searchInput {
+  margin-bottom: 15px;
+  width: 50%;
+}
+
+
+.mainHeadbodyProduct {
+  display: flex;
+  gap: 15px;
+  margin: 25px 25px 0;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #fafbfd;
+  background: #fffeff;
+  box-shadow: 0px 13px 26px 0px rgba(224, 199, 255, 0.3);
+}
+
+.inputRowRight {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.inputRowLeft {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input#editgrandTotal {
+  color: red;
+  font-weight: 700;
+}
+
+.overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  display: none;
+}
+
+.modal-backdrop {
+  opacity: 0 !important;
+}

@@ -1,0 +1,21 @@
+.pEdit {
+  width: 1px;
+}
+
+.pdelet {
+  width: 0px;
+}
+
+/* .mainbody .table  > thead {
+    background: #f2f2f2 !important;
+    border-radius: 10px !important;
+    border: 1px solid #f1f3f5 !important;
+  } */
+
+.table.ptable > tbody {
+  vertical-align: unset !important;
+}
+
+/* .table > thead {
+  background: red !important;
+} */
