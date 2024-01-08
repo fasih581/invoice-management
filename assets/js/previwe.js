@@ -1,9 +1,4 @@
-// Get the query parameters from the URL
-// let params = new URLSearchParams(document.location.search);
-// let id = params.get("id");
-
-// console.log("id =", id);
-// -------------------------------------VIEW EMPLOYEE-------------------------------
+// PREVIWE INVOICE
 function previewDetails(id) {
   previewInvoiceOn();
 
@@ -51,10 +46,12 @@ function previewDetails(id) {
     });
 }
 
-// print
+// End-PREVIWE INVOICE
+
+// PRINT PDF INVOICE
 function printdiv(elem) {
   var header_str =
-    "<html><head><title>" + document.title + "</title></head><body>";
+    "<html><head><title>" + document.title + "</title><style></style></head><body>";
   var footer_str = "</body></html>";
   var new_str = document.getElementById(elem).innerHTML;
   var old_str = document.body.innerHTML;
@@ -67,21 +64,9 @@ function previewOff(elem) {
   printdiv(elem);
   previewInvoiceOff();
 }
+// End-PRINT PDF INVOICE
 
-// function calculateAge(dateOfBirth) {
-//   const dob = new Date(dateOfBirth);
-//   const currentDate = new Date();
-//   const timeDiff = currentDate - dob;
-//   const age = Math.floor(timeDiff / (365.25 * 24 * 60 * 60 * 1000));
-//   return age;
-// }
-// function changeformatYMD(DOB) {
-//   const [date, month, year] = DOB.split("-");
-//   let formatteddate = year + "-" + month + "-" + date;
-//   return formatteddate;
-// }
-// -----------------------------End-VIEW EMPLOYEE-------------------------------------------------
-
+// CONVERT NUMBER TO WORDS INVOICE
 function convertNumberToWords(number) {
   const units = ["", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
   const teens = ["", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"];
@@ -139,3 +124,4 @@ function convertNumberToWords(number) {
 
   return words;
 }
+// End-CONVERT NUMBER TO WORDS INVOICE

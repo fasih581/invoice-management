@@ -27,6 +27,11 @@
     font-weight: 800;
   }
   
+  .invoiceHeadBody {
+    display: flex;
+    justify-content: space-between;
+}
+
   .invoiceHead .preSubHead {
     display: flex;
     flex-direction: column;
@@ -47,36 +52,23 @@
     font-weight: 400;
   }
   
-  /* .previweTophead {
+  .invoiceTittle {
     display: flex;
-    justify-content: space-between;
-  }
-  
-  .previweHead h1 {
-    color: #5d6be1;
-    font-family: Inter;
-    font-size: 100px; 
-    font-style: normal;
-    font-weight: 800;
-  } 
-  
-  
-  .previweHead h5 {
-  max-width: 480px;
-    color: #11181c;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 800;
-  } */
-  
-  .invoiceHead h2 {
-    color: #11181c;
-    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+  .invoiceTittle h2 {
+    color: #f1f3f5;
     font-family: Inter;
     font-size: 35px;
     font-style: normal;
     font-weight: 700;
     line-height: 133%;
+    background-color: #5d6be1;
+    width: 150px;
+    text-align: center;
+    border-radius: 15px;
   }
   
   .previweBody h5 {
@@ -87,31 +79,39 @@
   }
   
   .invoiceBody {
-    margin: 50px 0;
+    margin-bottom: 25px;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
   }
   
-  .inviceBodyleft {
+  /* .inviceBodyleft {
     display: flex;
     align-items: center;
-  }
+  } */
+
+  .inviceCustomerName {
+    margin-top: 40px;
+}
   
-  .invoiceBody h5 span {
+  .inviceCustomerName h5 span {
     color: black;
     font-family: Inter;
     font-style: normal;
     font-weight: 700;
   }
   
-  .invoiceBody .invoiceBodyright h5 {
+  .invoiceBodyTo h5 {
     display: flex;
     flex-direction: column;
-    gap: 5modal_mainbodypx;
+    gap: 5px;
+    color: black;
+    font-family: Inter;
+    font-style: normal;
   }
   
-  .invoiceBody .invoiceBodyright h5 span {
-    max-width: 300px;
+  .invoiceBodyTo h5 span {
+    max-width: 230px;
     font-weight: 500;
   }
   
